@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/about_viewer.png -->
-    <string name="about_copyright">© Redsolution LTD, 2010-2014</string>
+    <string name="about_copyright">© MP Solutions, 2015</string>
     <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/about_viewer.png -->
-    <string name="about_feedback">mailto:info@xabber.com</string>
+    <string name="about_feedback">mailto:gunslap@gmail.com</string>
     <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/about_viewer.png -->
-    <string name="about_site">http://www.xabber.com</string>
+    <string name="about_site">http://www.missilepuppy.com</string>
     <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/about_viewer.png -->
     <string name="about_version">Version: %s</string>
-    <string name="about_license">License: GNU GPLv3\n<a href="https://github.com/redsolution/xabber-android">Open source software</a></string>
+    <string name="about_license">License: GNU GPLv3\n<a href="https://github.com/Gunslap/xabber-android">Open source software</a></string>
 </resources>

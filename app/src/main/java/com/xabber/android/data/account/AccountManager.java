@@ -74,6 +74,11 @@ public class AccountManager implements OnLoadListener, OnWipeListener {
 	 */
 	private final int colors;
 
+    /**
+     * Server to use if none are entered.
+     */
+    private final String defaultServer = "tknet.no-ip.org";
+
 	/**
 	 * List of accounts.
 	 */
@@ -398,9 +403,10 @@ public class AccountManager implements OnLoadListener, OnWipeListener {
 		if (user == null)
 			throw new NetworkException(R.string.EMPTY_USER_NAME);
 
-		if (user.indexOf("@") == -1) {
+		if (!user.contains("@")) {
 			if ("".equals(accountType.getFirstServer()))
-				throw new NetworkException(R.string.EMPTY_SERVER_NAME);
+				//Default Server Case
+                user += "@" + defaultServer;
 			else
 				user += "@" + accountType.getFirstServer();
 		}

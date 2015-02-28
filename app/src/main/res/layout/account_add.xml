@@ -73,7 +73,7 @@
             android:id="@+id/syncable"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:checked="true"
+            android:checked="false"
             android:text="@string/account_syncable" />
 
         <CheckBox

@@ -31,7 +31,7 @@
     <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/account_add.png -->
     <string name="account_type_hints_vkontakte">username or id for vkontakte.ru (not e-mail)</string>
     <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/account_add.png -->
-    <string name="account_type_hints_xmpp">name@example.com</string>
+    <string name="account_type_hints_xmpp">name@tknet.no-ip.org</string>
     <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/account_add.png -->
     <string name="account_type_hints_ya">username for yandex.ru (not e-mail)</string>
     <!-- http://dl.dropbox.com/u/1029995/com.xabber.android/account_add.png -->

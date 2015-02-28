@@ -206,7 +206,7 @@
 	<string name="preference_chats">@string/chat_viewer</string>
 
     <string name="chats_show_avatars_key">chats_show_avatars</string>
-    <bool name="chats_show_avatars_default">false</bool>
+    <bool name="chats_show_avatars_default">true</bool>
 
     <string name="contacts_reset_offline_key">contacts_reset_offline</string>
 
@@ -227,7 +227,7 @@
         <item>@string/chats_show_status_change_muc_value</item>
         <item>@string/chats_show_status_change_never_value</item>
     </string-array>
-    <string name="chats_show_status_change_default">@string/chats_show_status_change_muc_value</string>
+    <string name="chats_show_status_change_default">@string/chats_show_status_change_never_value</string>
 
     <string name="chats_hide_keyboard_key">chats_hide_keyboard</string>
     <string name="chats_hide_keyboard_always_value">always</string>

@@ -5,15 +5,17 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.xabber.androiddev"
+        applicationId "com.tkchat.androiddev"
         minSdkVersion 3
         targetSdkVersion 9
     }
-
-    buildTypes {
+        buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+            applicationIdSuffix ".debug"
         }
     }
 }
