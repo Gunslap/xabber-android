@@ -41,3 +41,15 @@ Wiki
 ====
 
 Visit our wiki pages for additional information: https://github.com/redsolution/xabber-android/wiki
+
+
+TKNet Desired Upgrades
+=======================
+- TKNet Branding (mostly complete)
+- Default options more appropriate for TKNet (semi-complete)
+- Default to TKNet server if no server is entered (complete)
+- Default to TKNet conference server if no conference server is entered
+- Diferentiate from main xabber client so they can run concurrently if desired
+- Change avatar on XMPP server from client
+- Search a conference server for available chat rooms
+- "Queit Hours" mode (ie: no notifications between 11pm and 8am)
